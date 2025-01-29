@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giobs - Ecosistema Integral de Gestión Humana en la Nube</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="https://giobs.app/assets/logo-dark-h6HYNM72.svg" alt="Giobs Logo" height="40">
+            </a>
+            <!-- Botón para menú en dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero d-flex align-items-center justify-content-center text-center">
+        <div class="hero-content">
+            <h1 class="hero-title">Módulos y sus Beneficios</h1>
+            <p class="lead">Descubre cómo optimizar la gestión humana con nuestra plataforma.</p>
+        </div>
+    </header>
+
+<!-- Contenedor principal -->
+<div class="roadmap-container">
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>1. Capacitación (LMS)</h3>
+        <p>Capacita a tus colaboradores de manera eficiente.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Mejora la capacitación y el aprendizaje continuo.</p>
+            <p><strong>Cómo se Agiliza:</strong> Acceso instantáneo a cursos y contenidos.</p>
+            <p><strong>Reducción de Costos:</strong> Menores gastos en capacitaciones presenciales (<strong>25% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Aumenta la eficiencia del aprendizaje (<strong>30% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>2. Comunicaciones</h3>
+        <p>Facilita la comunicación interna de noticias y eventos.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Fomenta una mejor comunicación organizacional.</p>
+            <p><strong>Cómo se Agiliza:</strong> Comunicación más rápida y directa.</p>
+            <p><strong>Reducción de Costos:</strong> Evita la duplicidad de comunicaciones (<strong>15% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Reduce malentendidos internos (<strong>20% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>3. Pausas Activas</h3>
+        <p>Administra pausas activas para el bienestar laboral.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Incrementa el bienestar y reduce el estrés laboral.</p>
+            <p><strong>Cómo se Agiliza:</strong> Automatización de pausas y seguimiento.</p>
+            <p><strong>Reducción de Costos:</strong> Reduce los costos de salud por estrés (<strong>20% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Mejora el rendimiento general (<strong>15% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>4. Planes de Acción Individual</h3>
+        <p>Define y sigue planes de mejora para colaboradores.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Promueve el desarrollo individual y organizacional.</p>
+            <p><strong>Cómo se Agiliza:</strong> Herramientas automatizadas de mejora.</p>
+            <p><strong>Reducción de Costos:</strong> Disminuye costos por baja productividad (<strong>18% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Promueve el alcance de metas (<strong>18% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>5. Onboarding</h3>
+        <p>Acompaña a nuevos colaboradores y contratos.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Agiliza la integración de nuevos empleados.</p>
+            <p><strong>Cómo se Agiliza:</strong> Flujos de trabajo digitalizados.</p>
+            <p><strong>Reducción de Costos:</strong> Ahorra costos en tiempo y recursos (<strong>30% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Reduce el tiempo de adaptación (<strong>35% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>6. Base de Datos de Colaboradores</h3>
+        <p>Accede a la información básica de colaboradores.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Proporciona acceso rápido a información crítica.</p>
+            <p><strong>Cómo se Agiliza:</strong> Búsqueda centralizada de datos.</p>
+            <p><strong>Reducción de Costos:</strong> Minimiza gastos administrativos (<strong>22% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Mejora el acceso y gestión de datos (<strong>25% incremento</strong>).</p>
+        </div>
+    </div>
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>7. Jefe Inmediato</h3>
+        <p>Monitorea el progreso de colaboradores por parte de sus jefes directos.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Facilita la supervisión del desempeño por los líderes.</p>
+            <p><strong>Cómo se Agiliza:</strong> Reportes automáticos para los jefes.</p>
+            <p><strong>Reducción de Costos:</strong> Evita errores costosos por falta de supervisión (<strong>12% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Optimiza el liderazgo y seguimiento (<strong>20% incremento</strong>).</p>
+        </div>
+    </div>
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>8. Seguimiento Documental</h3>
+        <p>Gestiona la documentación de los colaboradores.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Reduce riesgos legales y organiza información.</p>
+            <p><strong>Cómo se Agiliza:</strong> Digitalización y organización de documentos.</p>
+            <p><strong>Reducción de Costos:</strong> Previene multas legales y errores administrativos (<strong>28% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Automatiza la gestión documental (<strong>30% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>9. Evaluación de Desempeño</h3>
+        <p>Define KPIs y realiza seguimiento a resultados.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Optimiza el rendimiento y cumplimiento de objetivos.</p>
+            <p><strong>Cómo se Agiliza:</strong> Seguimiento automatizado de métricas.</p>
+            <p><strong>Reducción de Costos:</strong> Ahorra recursos en monitoreo manual (<strong>25% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Mejora la eficiencia de los colaboradores (<strong>28% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>10. Evaluación Cualitativa</h3>
+        <p>Evalúa aspectos cualitativos como el clima laboral.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Mejora el ambiente laboral y la satisfacción.</p>
+            <p><strong>Cómo se Agiliza:</strong> Encuestas y reportes automatizados.</p>
+            <p><strong>Reducción de Costos:</strong> Reduce costos por rotación laboral (<strong>20% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Fomenta un entorno de trabajo saludable (<strong>25% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>11. Evaluación de Competencias</h3>
+        <p>Mide y gestiona competencias clave.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Fortalece habilidades esenciales para el desempeño.</p>
+            <p><strong>Cómo se Agiliza:</strong> Herramientas automatizadas de evaluación.</p>
+            <p><strong>Reducción de Costos:</strong> Minimiza inversiones en capacitaciones externas (<strong>30% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Asegura la alineación de competencias clave (<strong>35% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>12. Grupos y Comités</h3>
+        <p>Organiza grupos y sigue sus tareas y documentos.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Aumenta la colaboración y organización grupal.</p>
+            <p><strong>Cómo se Agiliza:</strong> Centralización de tareas y recursos grupales.</p>
+            <p><strong>Reducción de Costos:</strong> Optimiza recursos en reuniones físicas (<strong>15% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Mejora la eficiencia en coordinación de equipos (<strong>20% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>13. Álbumes y Evidencias</h3>
+        <p>Crea álbumes para eventos y actividades.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Fomenta la memoria institucional y eventos.</p>
+            <p><strong>Cómo se Agiliza:</strong> Organización digital de evidencias.</p>
+            <p><strong>Reducción de Costos:</strong> Ahorra en impresión y almacenamiento físico (<strong>10% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Agiliza el acceso a registros visuales de actividades (<strong>15% incremento</strong>).</p>
+        </div>
+    </div>
+
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>14. Gestión de Contratistas</h3>
+        <p>Gestiona documentación e información de contratistas.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Mejora la relación con contratistas y reduce errores administrativos.</p>
+            <p><strong>Cómo se Agiliza:</strong> Automatización en la gestión de contratistas.</p>
+            <p><strong>Reducción de Costos:</strong> Reduce costos por incumplimientos y errores contractuales (<strong>18% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Optimiza la gestión de contratos y proveedores (<strong>18% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>15. Encuestas y Formularios</h3>
+        <p>Crea encuestas internas para recopilar información clave.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Recolecta datos clave para tomar decisiones.</p>
+            <p><strong>Cómo se Agiliza:</strong> Creación automatizada de encuestas.</p>
+            <p><strong>Reducción de Costos:</strong> Minimiza errores por falta de datos y reprocesos (<strong>12% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Mejora la toma de decisiones basada en información (<strong>22% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>16. Reconocimientos</h3>
+        <p>Envía reconocimientos y premios a tus colaboradores.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Incrementa la moral y la motivación del equipo.</p>
+            <p><strong>Cómo se Agiliza:</strong> Plataformas para reconocimiento rápido.</p>
+            <p><strong>Reducción de Costos:</strong> Ahorra en incentivos innecesarios (<strong>15% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Fomenta el compromiso del equipo (<strong>20% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>17. Novedades</h3>
+        <p>Solicita vacaciones, permisos, incapacidades y más.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Simplifica la gestión de solicitudes laborales.</p>
+            <p><strong>Cómo se Agiliza:</strong> Automatización de procesos de solicitud.</p>
+            <p><strong>Reducción de Costos:</strong> Reduce el tiempo invertido en solicitudes manuales (<strong>20% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Agiliza la gestión administrativa (<strong>15% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>18. Ninebox</h3>
+        <p>Evalúa el desempeño y el potencial de tus colaboradores.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Identifica y desarrolla talento clave.</p>
+            <p><strong>Cómo se Agiliza:</strong> Gráficos y reportes generados automáticamente.</p>
+            <p><strong>Reducción de Costos:</strong> Evita gastos en evaluaciones externas (<strong>25% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Optimiza la gestión del talento humano (<strong>30% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>19. Inspecciones de Seguridad</h3>
+        <p>Realiza inspecciones de seguridad y salud laboral.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Promueve la seguridad y cumplimiento normativo.</p>
+            <p><strong>Cómo se Agiliza:</strong> Digitalización de inspecciones.</p>
+            <p><strong>Reducción de Costos:</strong> Reduce accidentes y sus costos asociados (<strong>22% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Mejora la gestión de riesgos laborales (<strong>25% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>20. Documentación Interna</h3>
+        <p>Crea, comparte y firma políticas internas.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Establece orden en políticas y procesos internos.</p>
+            <p><strong>Cómo se Agiliza:</strong> Flujos digitales para aprobación y firmas.</p>
+            <p><strong>Reducción de Costos:</strong> Disminuye el uso de papel (<strong>30% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Mejora la accesibilidad a documentos clave (<strong>35% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>21. Seguimiento Contractual</h3>
+        <p>Supervisa contratos y acuerdos laborales.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Garantiza el cumplimiento de obligaciones contractuales.</p>
+            <p><strong>Cómo se Agiliza:</strong> Recordatorios automáticos de vencimientos.</p>
+            <p><strong>Reducción de Costos:</strong> Evita costos por incumplimientos contractuales (<strong>18% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Mejora el control de contratos y documentos clave (<strong>22% incremento</strong>).</p>
+        </div>
+    </div>
+
+    <div class="roadmap-step" onclick="toggleDetails(this)">
+        <h3>22. Cumpleaños</h3>
+        <p>Haz seguimiento de los cumpleaños del mes.</p>
+        <div class="details">
+            <p><strong>Impacto en la Empresa:</strong> Fomenta una cultura organizacional positiva.</p>
+            <p><strong>Cómo se Agiliza:</strong> Notificaciones automáticas de eventos.</p>
+            <p><strong>Reducción de Costos:</strong> Fortalece la retención del personal (<strong>10% reducción</strong>).</p>
+            <p><strong>Incremento de Productividad:</strong> Aumenta el sentido de pertenencia en el equipo (<strong>15% incremento</strong>).</p>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

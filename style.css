@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* Definir variables de colores */
+:root {
+    --color-primario: #213547;
+    --color-secundario: #9ED8DA;
+    --color-info: #5478eb;
+    --color-exito: #0bbb87;
+    --color-advertencia: #ffb822;
+    --color-peligro: #fd397a;
+    --color-fondo-claro: #f6f8fa;
+}
+
+/* Reset básico */
+body {
+    font-family: "DM Serif Display", serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-fondo-claro);
+    color: var(--color-primario);
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    height: 40vh;
+    background: url('https://giobs.app/assets/images/hero-bg.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estilo del título en azul Giobs */
+.hero-title {
+    color: var(--color-primario);
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+.lead {
+    font-size: 1,7rem;
+    color: var(--color-primario);
+}
+
+.roadmap-step {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.roadmap-step:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.roadmap-step .details {
+    display: none;
+    margin-top: 1rem;
+    color: #6c757d;
+}
+
+header {
+    background-color: #fafafa;
+    color: #007bff;
+    padding: 2rem;
+    text-align: center;
+    font-size: larger;
+}
+/* Estilos Generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+header h1 {s
+    font-weight: 600;
+    margin: 0;
+}
+.section-title {
+    text-align: center;
+    margin: 2rem 0;
+}
+.section-title h2 {
+    color: #007bff;
+    font-weight: 600;
+}
+.roadmap-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem;
+}
+.roadmap-step {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.roadmap-step:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.roadmap-step .details {
+    display: none;
+    margin-top: 1rem;
+    color: #6c757d;
+}
