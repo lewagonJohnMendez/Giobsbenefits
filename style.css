@@ -43,6 +43,11 @@ body {
     color: var(--color-primario);
 }
 
+.lead2 {
+    font-size: 70%;
+    color: var(--color-primario);
+}
+
 .roadmap-step {
     background: #fff;
     border: 1px solid #ddd;
