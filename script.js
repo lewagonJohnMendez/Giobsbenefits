@@ -1,11 +1,22 @@
-// Mostrar/Ocultar Detalles
-// Inicia AOS (Animate On Scroll) si decides usarlo
+function toggleCategory(element) {
+    element.classList.toggle("active");
+    let content = element.nextElementSibling;
+    if (content.style.display === "block") {
+        content.style.display = "none";
+    } else {
+        content.style.display = "block";
+    }
+}
 
 function toggleDetails(element) {
-    const details = element.querySelector('.details');
-    if (details.style.display === "none" || !details.style.display) {
-        details.style.display = "block";
+    element.classList.toggle("active");
+    let details = element.querySelector(".details");
+
+    if (details.style.maxHeight) {
+        details.style.maxHeight = null;
+        details.style.opacity = "0";
     } else {
-        details.style.display = "none";
+        details.style.maxHeight = details.scrollHeight + "px";
+        details.style.opacity = "1";
     }
 }
